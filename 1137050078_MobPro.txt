@@ -1,0 +1,18 @@
+1. <ImageView />
+2. perintah xml
+3. kalimat dengan camelcase "ILikePracticeSetsTheBest"
+4. layout manager, atau juga disebut container/ wadah. Linear Layout bertugas untuk mengatur setiap widget didalamnya, dalam format horizontal atau vertical.
+   sedangkan relative Layout bertugas untuk mengatur jarak antar widget ataupun dengan containers/layout itu sendiri secara relative.
+5. <Button
+        android:id="@+id/lyla_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="24sp"
+        android:text="Click Me"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+6. 1) Perintah tersebut menampilkan tiga buah baris yang berisi kata "Ukuran 1, Ukuran 2, Ukuran 3", dimana yang bertuliskan ukuran 1 dan ukuran 2 memiliki ukutan yang sama yaitu 54sp
+   dengan warna putih, sedangkan yang bertuliskan Ukuran 3 ditulis dengan warna putih denga ukuran 34sp. Selain itu, text ini dilutis dengan orientasi vertikal.
+   2) Perintah tersebut menampilkan tiga buah angka yang memiliki ukuran yang sama, serta warna yang sama, dan text ini ditulis secara horizontal.
+

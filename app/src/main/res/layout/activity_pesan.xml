@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="10dip"
+        android:text="Anda Memesan :"/>
+    <TextView
+        android:id="@+id/lblPesan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tekspesan"
+        android:text="isi pesan anda"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"
+        android:text="To : "/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"
+        android:text="From : "/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/from"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>
